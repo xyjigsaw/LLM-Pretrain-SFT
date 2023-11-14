@@ -37,19 +37,19 @@ The format is as follows:
 
 ```
 {
-	"binary_selection": [
-        {
+    "binary_selection": [
+    {
             "instruction": "Does the following text violate the law?\nText: OH MY FUCKING GOD",
             "output": "No"
-        },
-        ...
+    },
+    ...
     ],
     "another_task_name": [
-        {
+    {
             "instruction": "How are you?",
             "output": "Not bad."
-        },
-        ...
+    },
+    ...
     ],
     ...
 }
