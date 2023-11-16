@@ -26,6 +26,6 @@ torchrun --nproc_per_node=4 --master_port=2219 train_lora.py \
     --learning_rate 2e-5 \
     --weight_decay 0. \
     --logging_steps 1 \
-    --deepspeed "./configs/default_offload_opt_param.json" \
-    --tf32 True \
-    --use_lora True \
+    #--deepspeed "./configs/default_offload_opt_param.json" \
+    #--tf32 True \
+    #--use_lora True \
