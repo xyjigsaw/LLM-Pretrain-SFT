@@ -1,5 +1,5 @@
 sentencepiece
-accelerate
+accelerate==0.24.1
 datasets
 tqdm
 xformers
