@@ -1,7 +1,7 @@
 # LLM-Pretrain-SFT
 Scripts of LLM pretraining and finetuing (SFT)
 
-**LoRA supported**
+**LoRA & DeepSpeed supported**
 
 The repository is based on [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca).
 
