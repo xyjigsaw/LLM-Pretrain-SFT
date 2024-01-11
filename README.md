@@ -80,6 +80,13 @@ You can adjust the configurations in the [train_lora.py](llm_sft/train_lora.py).
 
 Note that some parameter settings of these models are different.
 
+### DeepSpeed
+
+If you want to use DeepSpeed, use the following command:
+
+```
+--deepspeed "./configs/default_offload_opt_param.json" \
+```
 
 ## File Tree
 
