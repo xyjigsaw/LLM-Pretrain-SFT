@@ -10,7 +10,7 @@ OUTPUT_DIR=result
 
 echo ===== current OUTPUT_DIR is $OUTPUT_DIR =====
 
-torchrun --nproc_per_node=4 --master_port=2219 train_lora.py \
+torchrun --nproc_per_node=4 --master_port=2219 train_lora_baichuan.py \
     --model_name_or_path $BASE_MODEL_PATH \
     --data_path $DATA \
     --bf16 True \
