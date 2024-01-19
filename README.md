@@ -57,6 +57,8 @@ The format is as follows:
 
 Note that if you put the [alpaca_data.json](llm_sft/data/alpaca_data.json) in the data folder, the script will use it as part of the training data.
 
+**LLaMA-2**: Since there is no pad_token in LLaMA-2, it is recommended that you could add 'tokenizer.pad_token = tokenizer.unk_token' to the tokenizer.
+
 3. Launch
 
 ### Full Parameters
