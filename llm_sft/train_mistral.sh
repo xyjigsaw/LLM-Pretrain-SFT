@@ -7,6 +7,7 @@ TITLE=mistral-7b-v0.1-pretrain-lr1e5epoch5data12length512
 DATA=data
 
 OUTPUT_DIR=result
+mkdir $OUTPUT_DIR
 
 echo ===== current OUTPUT_DIR is $OUTPUT_DIR =====
 

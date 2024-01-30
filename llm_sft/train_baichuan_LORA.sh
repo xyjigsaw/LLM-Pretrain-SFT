@@ -7,6 +7,7 @@ TITLE=baichuan-2-7b-base-pretrain-lr1e5epoch5data12length512-LORA
 DATA=data
 
 OUTPUT_DIR=result
+mkdir $OUTPUT_DIR
 
 echo ===== current OUTPUT_DIR is $OUTPUT_DIR =====
 

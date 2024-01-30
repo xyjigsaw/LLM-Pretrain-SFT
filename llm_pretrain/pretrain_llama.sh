@@ -7,6 +7,7 @@ TITLE=llama-7b-pretrain
 DATA=data
 
 OUTPUT_DIR=result
+mkdir $OUTPUT_DIR
 
 echo ===== current OUTPUT_DIR is $OUTPUT_DIR =====
 echo ===== MODEL_PATH is $MODEL_PATH =====
